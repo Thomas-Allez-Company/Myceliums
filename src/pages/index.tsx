@@ -21,7 +21,9 @@ export default function Home({ connected }) {
           <p className="mb-2 font-serif text-2xl">
             Salutations mes petits fungis !
           </p>
-          <h1 className="mb-10 font-serif text-2xl">Bienvenue sur Myceliums</h1>
+          <h1 className="mb-10 font-serif text-2xl">
+            Bienvenue sur <strong>Myceliums</strong>
+          </h1>
           <hr></hr>
           <div className="w-full space-y-4 p-4 text-justify font-serif text-xl lg:w-1/2">
             <p>
@@ -41,8 +43,8 @@ export default function Home({ connected }) {
               ressources pour une utilisation publique.
             </p>
             <div className="flex flex-col items-center py-8 lg:flex-row lg:items-start">
-              Pour <strong className="mx-1">devenir membre</strong> de notre
-              association, cliquez{" "}
+              Pour <strong className="mx-1">devenir membre</strong> de
+              Myceliums, cliquez{" "}
               <Link
                 href="https://www.helloasso.com/associations/myceliums/adhesions/myceliums"
                 passHref
