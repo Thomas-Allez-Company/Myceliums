@@ -2,6 +2,7 @@ import React from "react"
 
 import Head from "next/head"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Home({ connected }) {
   return (
@@ -45,10 +46,9 @@ export default function Home({ connected }) {
             </p>
             <p>
               Pour <strong>devenir membre</strong> de l'association c'est par{" "}
-              <a className="text-blue-500 hover:underline" href="/membership">
-                ici
-              </a>{" "}
-              👈
+              <Link href="/membership" passHref>
+                <a className="text-blue-500 hover:underline">ici</a> 👈
+              </Link>
             </p>
           </div>
         </div>

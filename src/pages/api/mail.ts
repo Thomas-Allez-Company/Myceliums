@@ -8,7 +8,6 @@ export default async function handler(
 ) {
     switch (req.method) {
         case "POST":
-            console.log(req.body)
             const { to, subject, text, html } = req.body
 
             try {
