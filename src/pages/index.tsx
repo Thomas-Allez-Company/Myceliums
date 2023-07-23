@@ -1,8 +1,9 @@
 import React from "react"
 
 import Head from "next/head"
-import Image from "next/image"
+
 import Link from "next/link"
+import Logo from "@components/Logo"
 
 export default function Home({ connected }) {
   return (
@@ -16,15 +17,10 @@ export default function Home({ connected }) {
       </Head>
       <main className="flex min-h-screen justify-center bg-gradient-to-b from-gray-50 via-gray-50 to-gray-100 py-20">
         <div className="flex flex-col items-center justify-center">
-          <Image
-            alt="logos"
-            src="/logos/Myceliums.svg"
-            height={200}
-            width={200}
-          />
-          <h1 className="mb-10 font-serif text-2xl">
+          <Logo />
+          <p className="mb-2 font-serif text-2xl">
             Salutations mes petit funghis !
-          </h1>
+          </p>
           <h1 className="mb-10 font-serif text-2xl">Bienvenue sur Myceliums</h1>
           <hr></hr>
           <div className="w-1/2 space-y-2 p-4 text-justify font-serif text-xl">
@@ -44,12 +40,14 @@ export default function Home({ connected }) {
               Nous mettrons aussi à disposition, les outils que nous avons
               développé afin que vous puissiez vous en servir.
             </p>
-            <p>
-              Pour <strong>devenir membre</strong> de l'association c'est par{" "}
+            <div className="flex flex-row">
+              Pour <strong className="mx-1"> devenir membre </strong> de
+              l'association c'est par{" "}
               <Link href="/membership" passHref>
-                <a className="text-blue-500 hover:underline">ici</a> 👈
+                <p className="mx-1 text-blue-500 hover:underline">ici</p>
               </Link>
-            </p>
+              <p> 👈 </p>
+            </div>
           </div>
         </div>
       </main>
