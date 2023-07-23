@@ -23,33 +23,35 @@ export default function Home({ connected }) {
           </p>
           <h1 className="mb-10 font-serif text-2xl">Bienvenue sur Myceliums</h1>
           <hr></hr>
-          <div className="w-full space-y-2 p-4 text-justify font-serif text-xl lg:w-1/2">
+          <div className="w-full space-y-4 p-4 text-justify font-serif text-xl lg:w-1/2">
             <p>
-              Myceliums 🍄 est une association Loi 1901, créée en 2023. Son
-              objectif est de référencer, de promouvoir, et de catalyser la
-              coopération autour de projets technologiques à visée
-              environnementale.
+              Myceliums 🍄 est une association Loi 1901, créée en 2023. Notre
+              objectif principal est de recenser, promouvoir et faciliter la
+              coopération autour de projets technologiques axés sur
+              l'environnement.
             </p>
             <p>
-              Vous trouverez bientôt ici les projets que nous réalisons, mais
-              aussi un outils qui vous permettra de publier vos propres projets,
-              de participer à des projets en cours, ou de récupérer des projets
-              en sommeil.
+              Bientôt, vous trouverez ici la liste des projets sur lesquels nous
+              travaillons actuellement. De plus, nous développons un outil qui
+              vous permettra de publier vos propres projets, de contribuer aux
+              initiatives en cours ou de relancer des projets en sommeil.
             </p>
             <p>
-              Nous mettrons aussi à disposition, les outils que nous avons
-              développé afin que vous puissiez vous en servir.
+              Nous nous engageons également à mettre à disposition nos outils et
+              ressources pour une utilisation publique.
             </p>
             <div className="flex flex-col items-center py-8 lg:flex-row lg:items-start">
-              Pour <strong className="mx-1"> devenir membre </strong> de
-              l'association c'est par{" "}
+              Pour <strong className="mx-1">devenir membre</strong> de notre
+              association, cliquez{" "}
               <Link
                 href="https://www.helloasso.com/associations/myceliums/adhesions/myceliums"
                 passHref
               >
-                <p className="mx-1 text-blue-500 hover:underline">ici</p>
+                <p className="mx-1 cursor-pointer text-blue-500 hover:underline">
+                  ici
+                </p>
               </Link>
-              <p> 👈 </p>
+              <p className="ml-1">👈</p>
             </div>
           </div>
         </div>
