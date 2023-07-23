@@ -1,8 +1,8 @@
 import React from "react"
 
 import Head from "next/head"
-
 import Link from "next/link"
+
 import Logo from "@components/Logo"
 
 export default function Home({ connected }) {
