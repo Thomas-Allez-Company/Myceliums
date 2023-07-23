@@ -43,7 +43,10 @@ export default function Home({ connected }) {
             <div className="flex flex-row">
               Pour <strong className="mx-1"> devenir membre </strong> de
               l'association c'est par{" "}
-              <Link href="/membership" passHref>
+              <Link
+                href="https://www.helloasso.com/associations/myceliums/adhesions/myceliums"
+                passHref
+              >
                 <p className="mx-1 text-blue-500 hover:underline">ici</p>
               </Link>
               <p> 👈 </p>
