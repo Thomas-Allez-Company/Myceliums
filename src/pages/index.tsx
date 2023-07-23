@@ -23,7 +23,7 @@ export default function Home({ connected }) {
           </p>
           <h1 className="mb-10 font-serif text-2xl">Bienvenue sur Myceliums</h1>
           <hr></hr>
-          <div className="w-1/2 space-y-2 p-4 text-justify font-serif text-xl">
+          <div className="w-full space-y-2 p-4 text-justify font-serif text-xl lg:w-1/2">
             <p>
               Myceliums 🍄 est une association Loi 1901, créée en 2023. Son
               objectif est de référencer, de promouvoir, et de catalyser la
@@ -40,7 +40,7 @@ export default function Home({ connected }) {
               Nous mettrons aussi à disposition, les outils que nous avons
               développé afin que vous puissiez vous en servir.
             </p>
-            <div className="flex flex-row">
+            <div className="flex flex-col items-center py-8 lg:flex-row lg:items-start">
               Pour <strong className="mx-1"> devenir membre </strong> de
               l'association c'est par{" "}
               <Link
