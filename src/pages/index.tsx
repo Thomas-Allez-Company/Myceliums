@@ -19,7 +19,7 @@ export default function Home({ connected }) {
         <div className="flex flex-col items-center justify-center">
           <Logo />
           <p className="mb-2 font-serif text-2xl">
-            Salutations mes petit funghis !
+            Salutations mes petits fungis !
           </p>
           <h1 className="mb-10 font-serif text-2xl">Bienvenue sur Myceliums</h1>
           <hr></hr>
