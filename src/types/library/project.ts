@@ -13,9 +13,7 @@ export interface ProjectMetaData {
 
 export type ProjectModule = {
   id: string
-} & (
-    | { contentType: ProjectType.text; content: string }
-  )
+} & { contentType: ProjectType.text; content: string }
 
 export enum ProjectType {
   text = "text",
