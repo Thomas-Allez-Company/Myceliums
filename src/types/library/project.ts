@@ -1,25 +1,23 @@
 export interface ProjectProps {
-    metaData: ProjectMetaData
-    modules: ProjectModule[]
+  metaData: ProjectMetaData
+  modules: ProjectModule[]
 }
 
 export interface ProjectMetaData {
-    name: string
-    createdAt: Date
-    // author : id
-    // likes: string[]
-    // comment: string[]
+  name: string
+  createdAt: Date
+  // author : id
+  // likes: string[]
+  // comment: string[]
 }
 
 export type ProjectModule = {
-    id: string
+  id: string
 } & (
-        | { contentType: ProjectType.text; content: string }
-        | { contentType: ProjectType.image; content: string }
-    )
+    | { contentType: ProjectType.text; content: string }
+  )
 
 export enum ProjectType {
-    text = "text",
-    image = "image",
+  text = "text",
+  image = "image",
 }
-
