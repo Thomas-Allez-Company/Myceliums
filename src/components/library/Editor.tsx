@@ -21,7 +21,7 @@ const toolbarOptions = {
   },
 }
 
-export function Editor({ debug = false }: { debug?: boolean }) {
+export default function Editor({ debug = false }: { debug?: boolean }) {
   const [value, setValue] = useState("")
 
   const handleEditorChange = (content) => {
