@@ -1,6 +1,15 @@
+import { Like, User } from "@prisma/client"
+
 export interface ProjectProps {
-  metaData: ProjectMetaData
-  modules: ProjectModule[]
+  id: string
+  name: string
+  description: string
+  author: User
+  createdAt: Date
+  likes: Like[]
+  comments: Comment[]
+  tags: string[]
+  coverPicture: string
 }
 
 export interface ProjectMetaData {
