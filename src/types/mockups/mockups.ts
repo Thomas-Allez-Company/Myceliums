@@ -19,5 +19,5 @@ export const mockUpProject: ProjectProps = {
     likes: [],
     comments: [],
     tags: ["lorem", "ipsum", "rocknroll"],
-    coverPicture: "https://random.imagecdn.app/1000/500",
+    coverPicture: "https://zwqlrslkmlxjfqdugswh.supabase.co/storage/v1/object/public/storage/iceberg-project.webp",
 }
