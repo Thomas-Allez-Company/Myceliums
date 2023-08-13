@@ -1,8 +1,8 @@
-import Navbar from "@components/Navbar"
-import { TEST_HTML_CONTENT } from "../../types/mockups/constants"
-import Head from "next/head"
 import { createContext, useContext } from "react"
+
+import Head from "next/head"
 import Image from "next/image"
+
 import {
   LikeButton,
   CommentButton,
@@ -11,7 +11,10 @@ import {
   WriteButton,
   SettingsButton,
 } from "@components/buttons"
+import Navbar from "@components/Navbar"
+
 import { mockUpProject } from "../../types/mockups"
+import { TEST_HTML_CONTENT } from "../../types/mockups/constants"
 
 const ProjectContext = createContext(mockUpProject)
 
