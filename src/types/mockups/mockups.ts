@@ -22,4 +22,6 @@ export const mockUpProject: ProjectProps = {
   tags: ["lorem", "ipsum", "rocknroll"],
   coverPicture:
     "https://zwqlrslkmlxjfqdugswh.supabase.co/storage/v1/object/public/storage/iceberg-project.webp",
+  color: "#FFFFFF",
+  setColor: (color: string) => {},
 }

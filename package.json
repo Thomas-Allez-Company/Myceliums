@@ -24,6 +24,7 @@
     "node-mailer": "^0.1.1",
     "prisma": "^4.10.1",
     "react": "^18.0.0",
+    "react-color": "^2.19.3",
     "react-dom": "^18.0.0",
     "react-quill": "^2.0.0",
     "sass": "^1.49.9"

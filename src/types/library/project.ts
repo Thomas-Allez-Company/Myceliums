@@ -10,6 +10,8 @@ export interface ProjectProps {
   comments: Comment[]
   tags: string[]
   coverPicture: string
+  color: string
+  setColor: (color: string) => void
 }
 
 export interface ProjectMetaData {

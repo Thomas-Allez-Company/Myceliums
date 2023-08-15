@@ -1,12 +1,25 @@
-export function SettingsButton() {
+import { Dispatch, SetStateAction } from "react"
+
+export function SettingsButton({
+  isActive,
+  setIsActive,
+}: {
+  isActive: boolean
+  setIsActive: Dispatch<SetStateAction<boolean>>
+}) {
   return (
-    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
+    <div
+      onClick={() => setIsActive(!isActive)}
+      className={`absolute top-2 right-2 z-20 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full ${
+        isActive ? "bg-black" : "bg-white"
+      }`}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={1.5}
-        stroke="currentColor"
+        stroke={isActive ? "white" : "black"}
         className="h-6 w-6"
       >
         <path
