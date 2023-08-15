@@ -14,7 +14,7 @@
     "lint": "eslint src --fix",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test",
-    "push": "git commit -a -m 'yarn push' && yarn format && git push"
+    "push": "yarn format && git commit -a -m 'yarn push' && git push"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.5",
