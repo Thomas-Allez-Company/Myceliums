@@ -55,6 +55,9 @@ export default function Home({ connected }) {
               </Link>
               <p className="ml-1">👈</p>
             </div>
+            <p>
+             À vos claviers !
+            </p>
           </div>
         </div>
       </main>
